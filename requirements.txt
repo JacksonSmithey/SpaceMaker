@@ -1,0 +1,33 @@
+Web app - Flask, Python
+
+About
+-----
+Designed to map and collect mathematical spaces and display them with brief, enlightening insight into it's features and uses.
+
+
+Navbar - Home, Map, Request New Space, About
+------
+Select Space: Dropdown [euclidean, elliptic, hyperbolic, banach, normed-vector, metric, topological, hausdorff,
+			hilbert, inner-product, locally convex, vector]
+
+	In the future: allow products and quotients of compatible spaces
+------------
+Intuitive graphing or workable depiction of the selected space.
+Describe the spaces key features and fields of mathematics that currently utilize the space.
+------------
+
+Space Manipulation
+------------------
+Space-specific manipulations that dynamically change the featured graph or depiction.
+May include metrics, topologies, underlying sets, or operators.
+
+Select substructures on the currently selected space.
+
+Mathematical definition(s) of the space.
+------------------
+
+Additional historical context(?)
+
+Footer
+------
+Github link
