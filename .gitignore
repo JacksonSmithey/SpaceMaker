@@ -154,6 +154,9 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# bolt config files
+.bolt
+
 # mypy
 .mypy_cache/
 .dmypy.json
