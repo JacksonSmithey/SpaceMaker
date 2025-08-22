@@ -18,7 +18,7 @@
 .home-button-container {
   position: fixed;
   top: 2rem;
-  left: 2rem;
+  right: 2rem;
   z-index: 100;
 }
 

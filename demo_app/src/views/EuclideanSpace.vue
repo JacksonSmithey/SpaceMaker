@@ -4,9 +4,9 @@
     
     <div class="container py-8">
       <div class="space-header text-center mb-8">
-        <h1>Euclidean Space</h1>
+        <h1>Euclidean Space (ℝⁿ)</h1>
         <p class="space-subtitle">
-          The foundation of classical geometry and our intuitive understanding of space
+          The foundation of classical geometry and the everyday intuitive understanding of space.
         </p>
       </div>
 
@@ -90,7 +90,7 @@
         <!-- Information Section -->
         <div class="info-section space-y-6">
           <div class="card">
-            <h2>Key Properties</h2>
+            <h2>Defining postulates</h2>
             <div class="properties-list space-y-4">
               <div class="property-item">
                 <h3>Flat Geometry</h3>
@@ -135,26 +135,13 @@
           </div>
 
           <div class="card">
-            <h2>Real-World Applications</h2>
+            <h2>Applications</h2>
             <div class="applications-grid grid grid-cols-1 space-y-4">
               <div class="application-item">
-                <h3>Architecture & Engineering</h3>
-                <p>Building design, structural analysis, and construction planning all rely on Euclidean geometry principles.</p>
-              </div>
-              
-              <div class="application-item">
-                <h3>Computer Graphics</h3>
-                <p>3D modeling, game engines, and rendering systems use Euclidean transformations for realistic visual representations.</p>
-              </div>
-              
-              <div class="application-item">
-                <h3>Navigation & GPS</h3>
-                <p>Local coordinate systems and short-distance calculations approximate our curved Earth as flat Euclidean space.</p>
-              </div>
-              
-              <div class="application-item">
-                <h3>Physics</h3>
-                <p>Classical mechanics, optics, and electromagnetism are formulated in Euclidean space for most practical applications.</p>
+                <h3>Topology</h3>
+                <p>Euclidean vector space is a finite-dimensional inner product space over the real numbers. 
+                  Commonly defined as ℝⁿ or ℝ x ℝ x ... x ℝ
+                </p>
               </div>
             </div>
           </div>
@@ -190,7 +177,6 @@ import HomeButton from '../components/HomeButton.vue'
 }
 
 .diagram-section {
-  position: sticky;
   top: 2rem;
   height: fit-content;
 }

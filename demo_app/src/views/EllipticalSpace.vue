@@ -242,7 +242,6 @@ import HomeButton from '../components/HomeButton.vue'
 }
 
 .diagram-section {
-  position: sticky;
   top: 2rem;
   height: fit-content;
 }
