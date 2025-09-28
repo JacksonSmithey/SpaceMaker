@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title> JSS </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" src="/src/main.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects 
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/LKV"> Legendrian Knot Visualizer </a></li>
+            <li><a class="dropdown-item" href="/SpaceWalker"> SpaceWalker </a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- SPACEWALKER NAVBAR -->
+    <ul class="nav justify-content-end">
+      <li class="nav-item"><a href="/SpaceWalker" class="p-3 text-decoration-none">Motivation and Background</a></li>
+      <li class="nav-item"><a href="/SpaceWalker/Spaces" class="p-3 text-decoration-none"> Spaces</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h2>Motivation</h2>
+    <p> 
+        The notion of a mathematical space is not well defined. 
+        If you're looking for a workable mathematical definition, then you've come to the wrong planet.
+        Here, the closest thing we have to a definition of space is "a set A with some kind of structure."
+        The structure part is vague, but that is exactly the power of interpreting spaces in this way.
+        There is no set method for making a new structure. If a brilliant mathematician decides to do
+        things in a new way that only works in a space with a new set of rules, then they've created a new space.
+
+        For example, Euclid created a space called the Euclidean plane.
+        Descartes (2000 years later) took this plane and added coordinates which are useful for algebra.
+        Even though Descartes started with a pre-existing space, since he added additional structure to it
+        -- the result is a new space called the Cartesian plane that is fundamentally diffent from the Euclidean plane.
+        
+        You may be thinking... "Mathematicians must have created millions of spaces by now! Are there are any left
+        to discover?"
+        The truth is, modern mathematics only has about 10 major fundamental kinds of spaces.
+        There are few enough that one man could theoretically list them all on one website.
+
+
+    </p>    
+    <p> 
+        Most people never learn about spaces because math courses don't often address which one you're working in.
+        If you're applying mathematics to known problems, the problem solving methods you learn
+        will already abide by the spatial structure it was discovered in.
+        This approach makes it easy for students to work within a space, but avoids conceptualizing 
+        space as a fundamental mathematical object that can also be manipulated.
+        Consequently the concept of space remains ambiguous.
+    </p>
+    <p> 
+        This application intends to do the opposite. 
+        Provide examples of spaces, show what makes them important/unique, then provide examples working with them.
+    </p>
+  </div>
+
+  <div class="container">
+    <h2>Background</h2>
+    <p>
+        Contrary to most mathematical ideas, space has <u>no formal definition</u>. The closest thing you'll 
+        find might be something like "a set with a structure." So let's get started by developing some intuition.
+    </p>
+    <p>
+      <a href="/SpaceWalker/Spaces/Euclidean_n-space" class="p-3 text-decoration-none"> Your first space </a>
+    </p>
+  </div>
+
+</body>
+</html>
